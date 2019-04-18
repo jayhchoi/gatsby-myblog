@@ -52,8 +52,13 @@
       "no-shadow": 0,
       "quotes": [
         2,
-        "single"
+        "single",
+        {
+          "allowTemplateLiterals": true,
+          "avoidEscape": true
+        }
       ],
+      "semi": ["never"],
       "jsx-quotes": [
         0,
         "prefer-single"

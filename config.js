@@ -1,9 +1,10 @@
-'use strict';
+'use strict'
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  url: 'https://jaychoi.net',
+  title: 'Blog by Jay Choi',
+  subtitle:
+    'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -23,16 +24,17 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
+    name: `Hyukjae 'Jay' Choi`,
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio:
+      'Self-taught developer & data scientist, former investment banker specialzing interest rates and FX, MBA/MSDS candidate at UVA Darden school of business(class 2021)',
     contacts: {
-      email: '#',
+      email: 'jaychoi1619@gmail.com',
       telegram: '#',
       twitter: '#',
-      github: '#',
+      github: 'JayHChoi',
       rss: '#',
       vkontakte: '#'
     }
   }
-};
+}
