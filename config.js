@@ -11,7 +11,7 @@ module.exports = {
   googleAnalyticsId: 'UA-73379983-2',
   menu: [
     {
-      label: 'Articles',
+      label: 'Posts',
       path: '/'
     },
     {
@@ -27,14 +27,11 @@ module.exports = {
     name: `Hyukjae 'Jay' Choi`,
     photo: '/photo.jpg',
     bio:
-      'Self-taught developer & data scientist, former investment banker specialzing interest rates and FX, MBA/MSDS candidate at UVA Darden school of business(class 2021)',
+      'MBA/MSDS Dual Degree Candidate at UVA Darden School of Business class of 2021. Self-taught javascript web developer. Former investment banker specialzing in interest rates and FX.',
     contacts: {
       email: 'jaychoi1619@gmail.com',
-      telegram: '#',
-      twitter: '#',
-      github: 'JayHChoi',
-      rss: '#',
-      vkontakte: '#'
+      twitter: '',
+      github: 'JayHChoi'
     }
   }
 }
