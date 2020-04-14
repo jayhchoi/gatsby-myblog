@@ -1,37 +1,36 @@
 'use strict'
 
 module.exports = {
-  url: 'https://jaychoi.net',
-  title: 'Blog by Jay Choi',
-  subtitle:
-    'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
-  menu: [
-    {
-      label: 'Posts',
-      path: '/'
-    },
-    {
-      label: 'About me',
-      path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
-  ],
-  author: {
-    name: `Hyukjae 'Jay' Choi`,
-    photo: '/photo.jpg',
-    bio:
-      'MBA/MSDS Dual Degree Candidate at UVA Darden School of Business class of 2021. Self-taught javascript web developer. Former investment banker specialzing in interest rates and FX.',
-    contacts: {
-      email: 'jaychoi1619@gmail.com',
-      twitter: '',
-      github: 'JayHChoi'
-    }
-  }
+	url: 'https://jaychoi.net',
+	title: '최혁재의 블로그',
+	subtitle:
+		'MBA 학생 | University of Virginia에서 MBA와 MS Data Science 학위를 이수 중입니다. 미국 생활, MBA, 데이터 사이언스 등 여러 이야기들을 나누고 싶습니다.',
+	copyright: '© All rights reserved.',
+	disqusShortname: '',
+	postsPerPage: 8,
+	googleAnalyticsId: 'UA-73379983-2',
+	menu: [
+		{
+			label: 'Blog',
+			path: '/',
+		},
+		{
+			label: 'About me',
+			path: '/pages/about',
+		},
+		{
+			label: 'Contact me',
+			path: '/pages/contacts',
+		},
+	],
+	author: {
+		name: '최혁재 (Jay Choi)',
+		photo: '/media/DardenProfile.jpg',
+		bio:
+			'MBA 학생 | University of Virginia에서 MBA와 MS Data Science 학위를 이수 중입니다. 미국 생활, MBA, 데이터 사이언스 등 여러 이야기들을 나누고 싶습니다.',
+		contacts: {
+			email: 'jaychoi1619@gmail.com',
+			github: 'JayHChoi',
+		},
+	},
 }
