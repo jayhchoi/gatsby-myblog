@@ -8,60 +8,60 @@ import Menu from './Menu'
 import styles from './Sidebar.module.scss'
 
 type Props = {
-  +isIndex: ?boolean
+	+isIndex: ?boolean,
 }
 
 type PureProps = Props & {
-  +data: Object
+	+data: Object,
 }
 
 export const PureSidebar = ({ data, isIndex }: PureProps) => {
-  const { author, copyright, menu } = data.site.siteMetadata
+	const { author, copyright, menu } = data.site.siteMetadata
 
-  return (
-    <div className={styles['sidebar']}>
-      <div className={styles['sidebar__inner']}>
-        <Author author={author} isIndex={isIndex} />
-        <Menu menu={menu} />
-        <Contacts contacts={author.contacts} />
-        <Copyright copyright={copyright} />
-      </div>
-    </div>
-  )
+	return (
+		<div className={styles['sidebar']}>
+			<div className={styles['sidebar__inner']}>
+				<Author author={author} isIndex={isIndex} />
+				<Menu menu={menu} />
+				<Contacts contacts={author.contacts} />
+				<Copyright copyright={copyright} />
+			</div>
+		</div>
+	)
 }
 
 export const Sidebar = (props: Props) => (
-  <StaticQuery
-    query={graphql`
-      query SidebarQuery {
-        site {
-          siteMetadata {
-            title
-            subtitle
-            copyright
-            menu {
-              label
-              path
-            }
-            author {
-              name
-              photo
-              bio
-              contacts {
-                email
-                github
-                twitter
-                # telegram
-                # rss
-                # vkontakte
-              }
-            }
-          }
-        }
-      }
-    `}
-    render={data => <PureSidebar {...props} data={data} />}
-  />
+	<StaticQuery
+		query={graphql`
+			query SidebarQuery {
+				site {
+					siteMetadata {
+						title
+						subtitle
+						copyright
+						menu {
+							label
+							path
+						}
+						author {
+							name
+							photo
+							bio
+							contacts {
+								email
+								github
+								# twitter
+								# telegram
+								# rss
+								# vkontakte
+							}
+						}
+					}
+				}
+			}
+		`}
+		render={(data) => <PureSidebar {...props} data={data} />}
+	/>
 )
 
 export default Sidebar
