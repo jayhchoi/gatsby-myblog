@@ -1,8 +1,6 @@
 ---
-template: page
-title: About me
-slug: about-me
-draft: false
+title: "About me"
+template: "Page"
 ---
 ![Headshot](/media/dardenprofile.jpg "Headshot")
 
