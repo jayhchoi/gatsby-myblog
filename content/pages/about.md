@@ -1,6 +1,6 @@
 ---
 title: "About me"
-template: "Page"
+template: "page"
 ---
 ![Headshot](/media/dardenprofile.jpg "Headshot")
 
