@@ -8,7 +8,7 @@ module.exports = {
 	copyright: 'Copyright © 최혁재의 블로그 2020. All rights reserved.',
 	disqusShortname: '',
 	postsPerPage: 8,
-	googleAnalyticsId: 'UA-73379983-2',
+	googleAnalyticsId: 'UA-163695775-1',
 	menu: [
 		{
 			label: 'Blog',
@@ -34,3 +34,5 @@ module.exports = {
 		},
 	},
 }
+
+// UA-73379983-2
