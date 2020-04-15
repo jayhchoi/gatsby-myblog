@@ -1,12 +1,27 @@
 ---
 title: "About me"
-template: "page"
+template: "Page"
 ---
+![Headshot](/media/dardenprofile.jpg "Headshot")
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+**소개**
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+University of Virginia에서 MBA와 MS Data Science 학위를 이수 중입니다. [카카오 브런치](https://brunch.co.kr/@jaychoi1619#articles)에 글을 연재하고 있습니다.
+
+
+
+**이력**
+
+University of Virginia Darden School of Business MBA (현재)
+
+University of Virginia School of Data Science 석사 (현재)
+
+한화자산운용 외환전략
+
+DB금융투자 금리/외환분석
+
+대한민국 공군
+
+UNIST 기술경영 학사
